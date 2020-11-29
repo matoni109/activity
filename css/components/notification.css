@@ -1,0 +1,60 @@
+.notifications {
+    align-items: center;
+     box-shadow: 5px 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.notification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(235,235,235);
+    color: black;
+    /*opacity: .6;*/
+    padding: 10px;
+    background: white;
+}
+
+.notification .info {
+    flex-grow: 1;
+    padding-left: 10px;
+}
+
+.notification .info small {
+    margin: 0px;
+    color: #999999;
+    font-weight: bolder;
+}
+
+.notification .info p {
+    margin: 2px;
+}
+
+.notification .action a {
+    display: flex;
+    color: transparent;
+    text-decoration: none;
+}
+
+.notification:hover .action:hover a {
+    display: flex;
+    color: #black;
+    opacity: 1;
+}
+
+.notification:hover .action a {
+    opacity: .5;
+    color: black;
+
+}
+
+.notification:hover .action:hover a i {
+    color: #black;
+    margin: 3px;
+    opacity: 1;
+}
+
+.notification:hover .action a i {
+    color: #black;
+    margin: 3px;
+    opacity: .5;
+}
